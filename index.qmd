@@ -1,0 +1,15 @@
+---
+title: "Dominic Bordelon"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/dominicbordelon/
+    - icon: github
+      text: Github
+      href: https://github.com/dojobo
+---
+
+I support novel, academic research in an R1 setting via consultation and instruction about how to manage, analyze, visualize, preserve, and communicate about one's data. My clients are university faculty, staff, and students at undergraduate and graduate levels. I help researchers craft compliant and well-rounded data management and sharing plans to accompany their proposals to major funders, which also involves helping them understand the local IT landscape and helping them assess the right tools for their job. I train students in how to program computers for data analysis and visualization (R and Python) and to utilize tools such as Git (version control) and the Linux console.

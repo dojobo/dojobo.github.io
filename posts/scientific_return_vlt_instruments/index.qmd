@@ -1,0 +1,45 @@
+---
+title: "Scientific Return of Very Large Telescope (VLT) Instruments"
+author: "Dominic Bordelon"
+date: "2017-09-01"
+categories: [analysis]
+image: "vlt-citations.png"
+---
+
+The [European Southern Observatory](https://www.eso.org/public/) builds, maintains, and operates ground-based telescopes. Their flagship facility since 1999 has been the [Very Large Telescope (VLT)](https://en.wikipedia.org/wiki/Very_Large_Telescope), which hosts four "unit telescope" platforms, each able to mount up to four instruments.
+
+Peer-reviewed articles which utilize ESO telescope data are described by metadata curators (librarians) in [telbib, the telescope bibliography](https://telbib.eso.org/). As Library Technology Specialist, I managed the automated identification and ingest of relevant articles into the database, and the metadata infrastructure for curators to annotate the articles. Our system also regularly collected a citation count for each paper, i.e., how many times that paper had been cited.[^1] Within the world of academic publications, [citation count is often used as a measure of "impact"](https://en.wikipedia.org/wiki/Citation_impact) or influence in the research discourse.
+
+[^1]: Our upstream metadata provider was [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
+
+Once curators had annotated article records with information about each article's associated observations ("observing programmes"), ESO scientists began to ask interesting questions. One line of thought pursued by VLT Programme Scientist Dr. Bruno Leibundgut was: if we know what instruments are associated with an article, how many peer-reviewed articles has each instrument "generated" over time? And since we were actually interested in scientific impact, how many citations did those articles generate?
+
+::: {#fig-citations layout-ncol="2"}
+![](vlt-papers.png)
+
+![](vlt-citations.png)
+
+Papers and citation counts "generated" by each instrument for each year of operation.
+:::
+
+My roles in this project were
+
+-   stewardship of the database,
+-   conceptual discussion and planning,
+-   querying and aggregation of the data, and
+-   exploratory visualizations.
+
+The findings were used by facility administrators to make decisions about upgrades. Findings included
+
+-   instrument demand associated with *successful* (i.e., publication-producing) proposals;
+-   characterization of publication behavior over time for most instruments;
+-   quantitative performance of instruments relative to one another and to their year of launch; and
+-   which instruments had passed their prime in terms of producing impact.
+
+Here is the abstract for the paper which we published in [The ESO Messenger](https://www.eso.org/sci/publications/messenger/):
+
+> A statistical analysis of metrics probing the use of VLT instruments yields a perspective on the demand, productivity and impact of individual instruments. The trends in the usage of these instruments provide information that may be useful in determining the timing of potential future instrument upgrades and replacements. We look at the evolution of observing time requests on VLT instruments; this is measured using the number of proposals submitted each semester as well as the requested time. We also look at the publication statistics on all VLT instruments and find that the older workhorse instruments have produced over 1000 publications to date. The most successful VLT instruments produce over 80 publications per year. After an initial increase as they enter operation, most instruments reach a constant rate of publications after between four and eight years and the number of publications and citations only starts to decline after decommissioning. We find that all instruments currently operating show increasing citation counts every year. ESO has regularly upgraded instruments to strengthen their scientific impact.
+
+Read the full paper here: <https://doi.org//10.18727/0722-6691/5032>
+
+![](vlt-demand.png){fig-align="center"}
