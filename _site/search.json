@@ -32,14 +32,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nScientific Return of Very Large Telescope (VLT) Instruments\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2017\n\n\nDominic Bordelon\n\n\n\n\n\n\nNo matching items"
+    "text": "The ESO Distributed Peer Review Experiment\n\n\n\n\n\n\n\nresearch software engineering\n\n\nopen science\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2019\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nScientific Return of Very Large Telescope (VLT) Instruments\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2017\n\n\nDominic Bordelon\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/scientific_return_vlt_instruments/index.html",
     "href": "posts/scientific_return_vlt_instruments/index.html",
     "title": "Scientific Return of Very Large Telescope (VLT) Instruments",
     "section": "",
-    "text": "The European Southern Observatory builds, maintains, and operates ground-based telescopes. Their flagship facility since 1999 has been the Very Large Telescope (VLT), which hosts four “unit telescope” platforms, each able to mount up to four instruments.\nPeer-reviewed articles which utilize ESO telescope data are described by metadata curators (librarians) in telbib, the telescope bibliography. As Library Technology Specialist, I managed the automated identification and ingest of relevant articles into the database, and the metadata infrastructure for curators to annotate the articles. Our system also regularly collected a citation count for each paper, i.e., how many times that paper had been cited.1 Within the world of academic publications, citation count is often used as a measure of “impact” or influence in the research discourse.\nOnce curators had annotated article records with information about each article’s associated observations (“observing programmes”), ESO scientists began to ask interesting questions. One line of thought pursued by VLT Programme Scientist Dr. Bruno Leibundgut was: if we know what instruments are associated with an article, how many peer-reviewed articles has each instrument “generated” over time? And since we were actually interested in scientific impact, how many citations did those articles generate?\nMy roles in this project were\nThe findings were used by facility administrators to make decisions about upgrades. Findings included\nHere is the abstract for the paper which we published in The ESO Messenger:\nRead the full paper here: https://doi.org//10.18727/0722-6691/5032"
+    "text": "The European Southern Observatory builds, maintains, and operates ground-based telescopes. Their flagship facility since 1999 has been the Very Large Telescope (VLT), which hosts four “unit telescope” platforms, each able to mount up to four instruments.\nPeer-reviewed articles which utilize ESO telescope data are described by metadata curators (librarians) in telbib, the telescope bibliography. As Library Technology Specialist, I managed the automated identification and ingest of relevant articles into the database, and the metadata infrastructure for curators to annotate the articles. Our system also regularly collected a citation count for each paper, i.e., how many times that paper had been cited.1 Within the world of academic publications, citation count is often used as a measure of “impact” or influence in the research discourse.\nOnce curators had annotated article records with information about each article’s associated observations (“observing programmes”), ESO scientists began to ask interesting questions. One line of thought pursued by VLT Programme Scientist Dr. Bruno Leibundgut was: if we know what instruments are associated with an article, how many peer-reviewed articles has each instrument “generated” over time? And since we were actually interested in scientific impact, how many citations did those articles generate?\nMy roles in this project were\nThe findings were used by facility administrators to make decisions about upgrades. Findings included\nHere is the abstract for the paper which we published in the ESO Messenger:\nRead the full paper here: https://doi.org//10.18727/0722-6691/5032"
   },
   {
     "objectID": "posts/scientific_return_vlt_instruments/index.html#footnotes",
@@ -47,5 +47,19 @@
     "title": "Scientific Return of Very Large Telescope (VLT) Instruments",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nOur upstream metadata provider was SAO/NASA Astrophysics Data System (ADS).↩︎"
+  },
+  {
+    "objectID": "posts/distributed_peer_review/index.html",
+    "href": "posts/distributed_peer_review/index.html",
+    "title": "The ESO Distributed Peer Review Experiment",
+    "section": "",
+    "text": "The European Southern Observatory builds, maintains, and operates ground-based telescopes. Their flagship facility since 1999 has been the Very Large Telescope (VLT), which hosts four “unit telescope” platforms, each able to mount up to four instruments.\nGiven the finite instrumentation on-site and finite number of (unobstructed) nights in a year, telescope time is a precious resource. Allocating that time fairly and in ways that will hopefully progress science is therefore a great undertaking by the astronomy community every year, involving several days of meetings at one location.\nLed by postdoctoral fellow Wolfgang Kerzendorf and with support from Dr. Nando Patat of the Observing Programmes Office, we piloted an experiment in online, anonymized peer reviews by applicants for telescope time. Applicants’ proposals were compared to the corpus of peers’ works, using an NLP (natural language processing) method, in order to dynamically match proposals to relevant reviewers.\nMy roles in this project were\nWe found that the process appeared to effective (compared to the “live” allocation process using the same proposals), and that participants felt that the process was fair. The findings were used, so far, by ESO to implement an actual distributed peer review process in 2023, with “promising outcomes.”\nHere is the abstract for the paper which we published in Nature Astronomy:\nRead the full paper here: https://doi.org/10.1038/s41550-020-1038-y or https://arxiv.org/abs/2004.04165 (preprint)"
+  },
+  {
+    "objectID": "posts/distributed_peer_review/index.html#footnotes",
+    "href": "posts/distributed_peer_review/index.html#footnotes",
+    "title": "The ESO Distributed Peer Review Experiment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWe used CherryPy and SQLAlchemy with a LAM stack. GitHub repository for the reviews web app: https://github.com/wkerzendorf/deepthought_opc↩︎"
   }
 ]
