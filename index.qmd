@@ -1,6 +1,6 @@
 ---
 title: "Dominic Bordelon"
-image: profile.jpg
+image: "images/IMG_2986-cropped.jpg"
 about:
   template: jolla
   links:
