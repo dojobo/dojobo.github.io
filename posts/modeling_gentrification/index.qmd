@@ -1,0 +1,13 @@
+---
+title: "Predictively Modeling Gentrification in Pittsburgh"
+author: "Dominic Bordelon"
+date: "2024-02-03"
+categories: [analysis]
+image: "F_delta.png"
+---
+
+This item is developed as a [Jupyter notebook](gentrification-nb.html), also embedded below.
+
+<iframe width="800" height="800" src="gentrification-nb.html">
+
+</iframe>
