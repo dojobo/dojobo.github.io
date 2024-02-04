@@ -39,7 +39,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Predictively Modeling Gentrification in Pittsburgh\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 3, 2024\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nThe ESO Distributed Peer Review Experiment\n\n\n\n\n\n\n\nresearch software engineering\n\n\nopen science\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2019\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nScientific Return of Very Large Telescope (VLT) Instruments\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2017\n\n\nDominic Bordelon\n\n\n\n\n\n\nNo matching items"
+    "text": "Predictively Modeling Gentrification in Pittsburgh\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 3, 2024\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nPanther Git: slides for teaching Git and GitHub\n\n\n\n\n\n\n\nteaching\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nThe ESO Distributed Peer Review Experiment\n\n\n\n\n\n\n\nresearch software engineering\n\n\nopen science\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2019\n\n\nDominic Bordelon\n\n\n\n\n\n\n  \n\n\n\n\nScientific Return of Very Large Telescope (VLT) Instruments\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2017\n\n\nDominic Bordelon\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/modeling_gentrification/index.html",
@@ -47,5 +47,12 @@
     "title": "Predictively Modeling Gentrification in Pittsburgh",
     "section": "",
     "text": "This item is developed as a Jupyter notebook, also embedded below."
+  },
+  {
+    "objectID": "posts/panther_git/index.html",
+    "href": "posts/panther_git/index.html",
+    "title": "Panther Git: slides for teaching Git and GitHub",
+    "section": "",
+    "text": "I teach Git and GitHub in two, 2-hour workshops. These are the slides. It’s called Panther Git because the university mascot is the panther.\nWhat’s different about how I teach Git and GitHub? We learn the foundational concepts by exploring GitHub, before ever touching the command line tool. The sequence of introduced topics is very deliberate.\n\nPart 1: Solo Usage\nPart 2: Collaborative Usage\n\nThe repository is also available at https://github.com/dojobo/panther-git. Slides are prepared in Quarto."
   }
 ]

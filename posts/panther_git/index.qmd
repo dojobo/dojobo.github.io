@@ -1,0 +1,16 @@
+---
+title: "Panther Git: slides for teaching Git and GitHub"
+author: "Dominic Bordelon"
+date: "2023-10-10"
+categories: [teaching]
+image: "git-diagram.png"
+---
+
+I teach Git and GitHub in two, 2-hour workshops. These are the slides. It's called Panther Git because the university mascot is the panther.
+
+What's different about how I teach Git and GitHub? We learn the foundational concepts by exploring GitHub, before ever touching the command line tool. The sequence of introduced topics is very deliberate.
+
+* [Part 1: Solo Usage](slides_1_solo-git-and-github-20231010.html)
+* [Part 2: Collaborative Usage](slides_2_collaborative-git-and-github-20231017.html)
+
+The repository is also available at [https://github.com/dojobo/panther-git](https://github.com/dojobo/panther-git). Slides are prepared in [Quarto](https://quarto.org/).
