@@ -3,7 +3,7 @@ title: "Taqulittuq and the *Polaris*: Indigenous Contributions in Arctic Explora
 author: "Dominic Bordelon"
 date: "2022-05-05"
 categories: [analysis]
-image: ""
+image: "wildlife.png"
 execute:
   echo: false
 bibliography: taqulittuq.bib
