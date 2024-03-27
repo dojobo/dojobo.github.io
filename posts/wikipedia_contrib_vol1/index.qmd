@@ -1,0 +1,64 @@
+---
+title: "Wikipedia Contibutions (vol. 1)"
+author: "Dominic Bordelon"
+date: "2024-03-26"
+categories: [creating educational content]
+image: "LTopo_Miss_Alluvial_Plain.webp"
+filters: 
+  - lightbox
+lightbox: auto
+---
+
+A recent passion project in my free time has been contributing to Wikipedia. In doing some pleasure nonfiction reading about my home state, Louisiana, I found that there was scant coverage of some of the topics on Wikipedia. I think it's important for my unique and special state to be well represented and to be known to the rest of the world. Wikipedia is a cornerstone of today's information ecosystem, [fulfilling a broad variety of information needs](https://madoc.bib.uni-mannheim.de/61545/1/3038912.3052716.pdf) for millions of readers, for free, and [acting as a portal for substantial Web traffic](https://pure.uva.nl/ws/files/69361346/3442381.3450136.pdf). Wikipedia's importance is perhaps even greater in light of [the ongoing pollution of search results by machine-generated nonsense](https://www.theverge.com/2023/6/26/23773914/ai-large-language-models-data-scraping-generation-remaking-web).
+
+Although I am not an expert on the topics which I'm writing about, I know enough about them to find relevant information, transfer it into Wikipedia, and cite the source. As an experienced librarian, I am also already familiar with threshold concepts like [Authority Control](https://en.wikipedia.org/wiki/Wikipedia:Authority_control), [No Original Research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research), [Notability](https://en.wikipedia.org/wiki/Wikipedia:Notability), and [Neutral Point of View](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view), as well as [the importance of citing claims](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources). Having an understanding of [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph)/[Linked Data](https://en.wikipedia.org/wiki/Linked_data) also helps in contributing to Wikidata.
+
+## New articles
+
+I have created the following articles utilizing information from published sources. Specific revision links are provided to preserve which work was mine, prior to involvement by other contributors.
+
+-   [Richard's Club](https://en.wikipedia.org/w/index.php?title=Richard%27s_Club&oldid=1210282313) ([PDF](richards-club.pdf))
+-   [Joe Hall (accordionist)](https://en.wikipedia.org/w/index.php?title=Joe_Hall_(accordionist)&oldid=1211361361) ([PDF](joe-hall.pdf))
+-   [Bébé Carrière](https://en.wikipedia.org/w/index.php?title=B%C3%A9b%C3%A9_Carri%C3%A8re&oldid=1211745753) ([PDF](bebe-carriere.pdf))
+-   [Preston Frank](https://en.wikipedia.org/w/index.php?title=Preston_Frank&oldid=1212301455) ([PDF](preston-frank.pdf))
+-   [Jeffery Broussard](https://en.wikipedia.org/w/index.php?title=Jeffery_Broussard&oldid=1214312138) ([PDF](jeffery-broussard.pdf))
+
+## Adapting public-domain works
+
+I created the following articles by adapting works that are in the public domain, due to their production by a federal agency, the Environmental Protection Agency. There are many ecoregion articles on Wikipedia already, but these in particular, at least in their EPA formulation, were not yet represented. Although I can claim no credit for the writing, formatting the material as a Wikipedia article makes it much more readily accessible. (For comparison, the information is otherwise in PDFs of large posters and Word documents on the EPA's website.) I also added value by linking to relevant existing articles and incorporating some images. The images were already available for use via Wikimedia Commons.
+
+-   [Southeastern Plains (ecoregion)](https://en.wikipedia.org/w/index.php?title=Southeastern_Plains_(ecoregion)&oldid=1213287986) ([PDF](SE-plains.pdf))
+-   [Mississippi Valley Loess Plains (ecoregion)](https://en.wikipedia.org/w/index.php?title=Mississippi_Valley_Loess_Plains_(ecoregion)&oldid=1213291661) ([PDF](miss-valley-loess-plains.pdf))
+-   [Southern Coastal Plain (ecoregion)](https://en.wikipedia.org/w/index.php?title=Southern_Coastal_Plain_(ecoregion)&oldid=1213948899) ([PDF](S-coastal-plain.pdf))
+
+By far what has been most exciting about this process has been creating maps in ArcGIS Pro, which I am recently learning for an unrelated project, to supplement the articles. It turns out that cartography is a lot of fun, so I'll be looking for more opportunities. Just below are a couple of my favorite maps; more at the end of this post. The maps use [EPA shapefiles](https://www.epa.gov/eco-research/ecoregions) and [ColorBrewer](https://colorbrewer2.org/) colors---18 categories in one visualization was a new challenge for me---and they are licensed [CC0 (public domain)](https://creativecommons.org/public-domain/cc0/). Click an image to activate lightbox mode, and click the image again to zoom in on it.
+
+::: {layout-ncol="2"}
+![Mississippi Alluvial Plain](LTopo_Miss_Alluvial_Plain.webp){alt="Mississippi Alluvial Plain" group="maps1" fig-align="center" width="300"}
+
+![Southeastern Plains, MS and AL detail](LTopo_SE_Plains_W.webp){group="maps1" fig-align="center" width="300"}
+:::
+
+## Other activities
+
+-   Authoring [Wikidata](https://www.wikidata.org/wiki/Special:Contributions/MiseDominic) for corresponding Wikipedia articles
+-   Adding missing coordinates to articles tagged as to-do in the [Louisiana Wikiproject](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Louisiana) (sometimes this involved using ArcGIS Online to calculate a centroid for an area)
+-   A variety of text additions with citations, such as [these improvements](https://en.wikipedia.org/w/index.php?title=Allen_Parish%2C_Louisiana&diff=1215256264&oldid=1189089846) to the article for [Allen Parish, Louisiana](https://en.wikipedia.org/wiki/Allen_Parish%2C_Louisiana) (using [Orange County, CA](https://en.wikipedia.org/wiki/Orange_County%2C_California) as a model)
+
+## More maps
+
+::: {layout-ncol="2"}
+![South Central Plains](LTopo_S_Central_Plains.webp){group="maps2" fig-align="center" width="300"}
+
+![Southern Coastal Plain](LTopo_S_Coastal_Plain.webp){group="maps2" fig-align="center" width="300"}
+
+![Southern Coastal Plain, Big Bend detail](LTopo_S_Coastal_Plain_BB.webp){group="maps2" fig-align="center" width="300"}
+
+![Southeastern Plains](LTopo_SE_Plains.webp){group="maps2" fig-align="center" width="300"}
+
+![Mississippi Valley Loess Plains](LTopo_MSV_Loess_Plains.webp){group="maps2" fig-align="center" width="300"}
+
+![Southeastern Plains, VA and Carolinas detail](LTopo_SE_Plains_NE.webp){group="maps2" fig-align="center" width="300"}
+:::
+
+![Western Gulf Coastal Plain](LTopo_W_Gulf_Coastal_Plain.webp){alt="Western Gulf Coastal Plain" group="maps2" fig-align="center" width="300"}
